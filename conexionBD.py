@@ -25,6 +25,8 @@ class ConexionBD:
 
         Para realizar a conexión precisa da ruta onde está a base de datos que selle pasa no método __init__.
 
+        :return: None
+
         """
 
         try:
@@ -47,6 +49,8 @@ class ConexionBD:
 
         Para realizar o cursor precísase previamente da execución do método conectaBD, que crea a conexión a base de 
         datos na ruta onde está padada o método __init__.
+
+        :return: None
 
         """
 
@@ -71,8 +75,8 @@ class ConexionBD:
     def consultaSenParametros (self, consultaSQL):
         """Retorna unha lista cos rexistros dunha consulta realizada sen pasarlle parámetros.
 
-        :param consultaSQL. Código da consulta sql a executar
-        :return listaConsulta
+        :param consultaSQL: Código da consulta sql a executar
+        :return: listaConsulta
 
         """
 
@@ -101,9 +105,9 @@ class ConexionBD:
 
         A consulta ten que estar definida con '?' na clausula where de SQL.
 
-        :param consultaSQL. Código da consulta sql a executar
-        :param *parametros. Parámetros para introducir na consulta
-        :return listaConsulta
+        :param consultaSQL: Código da consulta sql a executar
+        :param parametros: Parámetros para introducir na consulta
+        :return: listaConsulta
 
         """
 

@@ -157,3 +157,38 @@ Imagenes
 Las imágenes se pueden insertar con la siguiente sintaxis:
 
 .. imagen:: _static/gatito.png
+
+Notas de Pié
+^^^^^^^^^^^^
+Las notas de pié se escriben con dos asteriscos y un espacio al final de la línea.
+`Sphinx`_ Este texto está en la nota [#n1]_ de pié.
+
+.. rubric:: Notas
+
+.. [#n1] Este es el texto de la nota de pié.
+
+.. _Sphinx: https://www.sphinx-doc.org
+
+Directivas
+^^^^^^^^^^
+Las posibilidades de las directivas son:
+
+* Attention
+* Caution
+* Danger
+* Error
+* Hint
+* Important
+* Note
+* Tip
+* Warning
+
+.. Danger:: Este es un mensaje de peligro.
+
+.. Attention:: Este es un mensaje de atención.
+
+.. Caution:: Este es un mensaje de precaución.
+
+.. Important:: Este es un mensaje importante.
+
+.. Tip:: Este es un mensaje de consejo.

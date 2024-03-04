@@ -16,7 +16,10 @@ author = 'Angi'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['sphinx.ext.autodoc'] # Esto es para que se genere la documentacion de los modulos de python
+extensions = ['sphinx.ext.autodoc', # Esto es para que se genere la documentacion de los modulos de python
+              'sphinx.ext.intersphinx', # Esto es para que se puedan hacer referencias a otros modulos y/o proyectos
+              'sphinx.ext.viewcode' # Esto es para que se pueda ver el codigo fuente de los modulos
+              ]
 
 templates_path = ['_templates']
 exclude_patterns = []

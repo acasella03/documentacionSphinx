@@ -110,6 +110,7 @@ def coincidenFichas(ficha1, ficha2):
 
     La función compara los lados de las fichas entre si y devuelve un True si combinan,
     si no hay coincidencia numérica entre los lados devuelve False.
+
     :param ficha1: Tuple
     :param ficha2: Tuple
     :return: boolean
@@ -141,6 +142,7 @@ def coincidenFichasCadena(ficha):
 
     La función compara los lados de las fichas entre si y devuelve un True si combinan,
     si no hay coincidencia numérica entre los lados devuelve False.
+
     :param ficha: String
     :return: boolean
     """
